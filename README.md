@@ -25,7 +25,7 @@ function monteCarloSimulation(numPoints) {
 }
 
 // Run the simulation with a specified number of points
-const numPoints = 1000000;
+const numPoints = 1_000_000;
 const estimatedPi = monteCarloSimulation(numPoints);
 console.log(`Estimated value of pi: ${estimatedPi}`);
 ```
